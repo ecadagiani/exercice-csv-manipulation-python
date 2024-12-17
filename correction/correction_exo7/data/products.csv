@@ -1,0 +1,17 @@
+product_id,name,price,quantity,archived
+0,PC screws,0.99,1000,FAUX
+1,Smartphone XS,599.99,50,FAUX
+2,Laptop Pro,1299.99,30,FAUX
+3,Wireless Earbuds,89.99,100,FAUX
+4,Smart Watch,199.99,45,FAUX
+5,Tablet Air,449.99,35,FAUX
+6,Gaming Mouse,59.99,80,FAUX
+7,Mechanical Keyboard,129.99,60,VRAI
+8,External SSD 1TB,149.99,40,FAUX
+9,Wireless Charger,29.99,120,FAUX
+10,Bluetooth Speaker,79.99,70,FAUX
+11,USB-C Hub,39.99,90,VRAI
+12,Gaming Headset,89.99,55,FAUX
+13,Webcam HD,69.99,25,VRAI
+14,Power Bank,49.99,85,FAUX
+15,Big Monitor,299.99,20,FAUX

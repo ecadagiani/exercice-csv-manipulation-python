@@ -1,0 +1,11 @@
+user_id,lastname,firstname,email,creation_date,language,country
+1,Martin,Sophie,sophie.martin@email.com,2023-01-15,fr,FR
+2,Smith,Beer,beer.smith@email.com,2023-02-03,en,US
+3,Taylor,Emma,emma.taylor@email.com,2023-02-15,en,UK
+4,Garcia,Miguel,miguel.garcia@email.com,2023-03-10,es,ES
+5,John,Doe,john.doe@email.com,2023-03-22,fr,US
+6,Foo,Bar,foo.bar@email.com,2023-04-05,en,US
+7,Rodriguez,Ana,ana.rodriguez@email.com,2023-04-18,es,ES
+8,Wilson,James,james.wilson@email.com,2023-05-01,en,UK
+9,Bernard,Marie,marie.bernard@email.com,2023-05-15,fr,FR
+10,Brown,Michael,michael.brown@email.com,2023-06-01,en,FR
