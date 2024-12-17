@@ -67,7 +67,7 @@ Au début du programme, affichez la liste des fichiers CSV disponibles. Demandez
 
 Si le fichier existe, lisez le fichier et affichez son contenu. Recherchez sur internet comment lire un fichier CSV avec Python.
 
-Après avoir effectué des recherches, vous pourrez trouver quelques explications [ici](./explications/read_files_flags.md)
+Après avoir effectué des recherches, vous pourrez trouver quelques explications [ici](./explications/read_files_flags_fr.md)
 
 > Pour aller plus loin, que faire si l'on trouve plusieurs fichiers CSV avec le même nom ? C'est hypothétiquement impossible, mais il nous faut quand même prendre en compte cette possibilité. Si cela arrive, c'est une erreur. Nous pouvons donc lancer une erreur : `raise ValueError("Multiple csv files found")`
 
@@ -140,7 +140,7 @@ La documentation officielle : https://docs.python.org/3/library/csv.html
 
 Lisez la documentation et remplacez votre code qui crée un tableau de dictionnaires par la bibliothèque `csv`.
 
-> Attention, il vous faudra enlever tout votre code précédent, notamment `.readlines()`. Sinon, la bibliothèque `csv` risque de vous retourner des tableaux vides. Cela vient du fonctionnement de la lecture des fichiers en Python [explications](./explications/read_file_cursor.md)
+> Attention, il vous faudra enlever tout votre code précédent, notamment `.readlines()`. Sinon, la bibliothèque `csv` risque de vous retourner des tableaux vides. Cela vient du fonctionnement de la lecture des fichiers en Python [explications](./explications/read_file_cursor_fr.md)
 
 <details>
 <summary>Aide</summary>
@@ -251,6 +251,11 @@ La méthode `load` de `Order` devra utiliser les méthodes `get` de `Invoice` et
 </details>
 
 Le programme démarre en déclenchant la méthode `load` de toutes les classes.
+
+Quelques fonctionnalités:
+- Les `Product` possède une methode `remove_from_stock` qui permet de retirer une quantité de produit du stock
+- Les `Order` possède une methode `get_total_price` qui permet de récupérer le prix total d'une commande (prix unitaire * quantité)
+
 
 Ensuite, créez un menu en console qui permettra de :
 - créer un utilisateur

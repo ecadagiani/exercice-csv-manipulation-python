@@ -197,7 +197,7 @@ class Order(CsvModel):
 
       # Remove product from stock
       for order in orders:
-          order.product.quantity -= order.quantity
+          order.product.remove_from_stock(order.quantity)
       
       # Show summary
       print("\n=== Invoice Summary ===")

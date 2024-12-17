@@ -53,3 +53,6 @@ class Product(CsvModel):
 
     def __str__(self):
         return f"Product(id={self.id}, name={self.name}, price={self.price}, quantity={self.quantity}, archived={self.archived})"
+
+    def remove_from_stock(self, quantity_to_remove):
+        self.quantity -= quantity_to_remove
